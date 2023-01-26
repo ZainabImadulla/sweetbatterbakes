@@ -3,21 +3,21 @@ import Image from 'next/image'
 import Navbar from '@/components/Navbar'
 import { Inter } from '@next/font/google'
 import {collage} from '/Users/zainab/Desktop/Next.js Projects/sweetbatterbakes/public/images/collage.png'
-import title from '/Users/zainab/Desktop/Next.js Projects/sweetbatterbakes/public/images/title.png'
-import cake from '/Users/zainab/Desktop/Next.js Projects/sweetbatterbakes/public/images/cake.png';
-import donut from '/Users/zainab/Desktop/Next.js Projects/sweetbatterbakes/public/images/donut.png';
-import ingred from '/Users/zainab/Desktop/Next.js Projects/sweetbatterbakes/public/images/ingredients.png'
-import insta from "/Users/zainab/Desktop/Next.js Projects/sweetbatterbakes/public/images/instaL.png"
-import i1 from "/Users/zainab/Desktop/Next.js Projects/sweetbatterbakes/public/images/i1.png";
-import i2 from "/Users/zainab/Desktop/Next.js Projects/sweetbatterbakes/public/images/i2.png";
-import i3 from "/Users/zainab/Desktop/Next.js Projects/sweetbatterbakes/public/images/i3.png";
-import i4 from "/Users/zainab/Desktop/Next.js Projects/sweetbatterbakes/public/images/i4.png";
-import i5 from "/Users/zainab/Desktop/Next.js Projects/sweetbatterbakes/public/images/i5.png";
-import i6 from "/Users/zainab/Desktop/Next.js Projects/sweetbatterbakes/public/images/i6.png";
-import i7 from "/Users/zainab/Desktop/Next.js Projects/sweetbatterbakes/public/images/i7.png";
-import i8 from "/Users/zainab/Desktop/Next.js Projects/sweetbatterbakes/public/images/i8.png";
-import i9 from "/Users/zainab/Desktop/Next.js Projects/sweetbatterbakes/public/images/i9.png";
-import i10 from "/Users/zainab/Desktop/Next.js Projects/sweetbatterbakes/public/images/i10.png";
+import {title} from '/Users/zainab/Desktop/Next.js Projects/sweetbatterbakes/public/images/title.png'
+import {cake} from '/Users/zainab/Desktop/Next.js Projects/sweetbatterbakes/public/images/cake.png';
+import {donut} from '/Users/zainab/Desktop/Next.js Projects/sweetbatterbakes/public/images/donut.png';
+import {ingred} from '/Users/zainab/Desktop/Next.js Projects/sweetbatterbakes/public/images/ingredients.png'
+import {insta} from "/Users/zainab/Desktop/Next.js Projects/sweetbatterbakes/public/images/instaL.png"
+import {i1} from "/Users/zainab/Desktop/Next.js Projects/sweetbatterbakes/public/images/i1.png";
+import {i2} from "/Users/zainab/Desktop/Next.js Projects/sweetbatterbakes/public/images/i2.png";
+import {i3} from "/Users/zainab/Desktop/Next.js Projects/sweetbatterbakes/public/images/i3.png";
+import {i4} from "/Users/zainab/Desktop/Next.js Projects/sweetbatterbakes/public/images/i4.png";
+import {i5} from "/Users/zainab/Desktop/Next.js Projects/sweetbatterbakes/public/images/i5.png";
+import {i6} from "/Users/zainab/Desktop/Next.js Projects/sweetbatterbakes/public/images/i6.png";
+import {i7} from "/Users/zainab/Desktop/Next.js Projects/sweetbatterbakes/public/images/i7.png";
+import {i8} from "/Users/zainab/Desktop/Next.js Projects/sweetbatterbakes/public/images/i8.png";
+import {i9} from "/Users/zainab/Desktop/Next.js Projects/sweetbatterbakes/public/images/i9.png";
+import {i10} from "/Users/zainab/Desktop/Next.js Projects/sweetbatterbakes/public/images/i10.png";
 
 const inter = Inter({ subsets: ['latin'] })
 

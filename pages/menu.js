@@ -1,17 +1,17 @@
 import Dropdown from 'react-bootstrap/Dropdown';
 import DropdownButton from 'react-bootstrap/DropdownButton';
 import Image from 'next/image'
-import stuffed from "/Users/zainab/Desktop/Next.js Projects/sweetbatterbakes/public/images/stuffed.png"
-import Cookie from "/Users/zainab/Desktop/Next.js Projects/sweetbatterbakes/public/images/classic_cookie.png"
-import Cheese from "/Users/zainab/Desktop/Next.js Projects/sweetbatterbakes/public/images/i2.png"
-import Cupcake from "/Users/zainab/Desktop/Next.js Projects/sweetbatterbakes/public/images/cupcake.png"
-import Roll from "/Users/zainab/Desktop/Next.js Projects/sweetbatterbakes/public/images/rollcake.png"
-import Brownie from "/Users/zainab/Desktop/Next.js Projects/sweetbatterbakes/public/images/brownies.png"
-import Donut from "/Users/zainab/Desktop/Next.js Projects/sweetbatterbakes/public/images/donut2.png"
-import Cake from "/Users/zainab/Desktop/Next.js Projects/sweetbatterbakes/public/images/i10.png"
-import Banana from "/Users/zainab/Desktop/Next.js Projects/sweetbatterbakes/public/images/banana_bread.png"
-import Turnover from "/Users/zainab/Desktop/Next.js Projects/sweetbatterbakes/public/images/turnovers.png"
-import Madeline from "/Users/zainab/Desktop/Next.js Projects/sweetbatterbakes/public/images/madeline.png"
+import {stuffed} from "/Users/zainab/Desktop/Next.js Projects/sweetbatterbakes/public/images/stuffed.png"
+import {Cookie} from "/Users/zainab/Desktop/Next.js Projects/sweetbatterbakes/public/images/classic_cookie.png"
+import {Cheese} from "/Users/zainab/Desktop/Next.js Projects/sweetbatterbakes/public/images/i2.png"
+import {Cupcake} from "/Users/zainab/Desktop/Next.js Projects/sweetbatterbakes/public/images/cupcake.png"
+import {Roll} from "/Users/zainab/Desktop/Next.js Projects/sweetbatterbakes/public/images/rollcake.png"
+import {Brownie} from "/Users/zainab/Desktop/Next.js Projects/sweetbatterbakes/public/images/brownies.png"
+import {Donut} from "/Users/zainab/Desktop/Next.js Projects/sweetbatterbakes/public/images/donut2.png"
+import {Cake} from "/Users/zainab/Desktop/Next.js Projects/sweetbatterbakes/public/images/i10.png"
+import {Banana} from "/Users/zainab/Desktop/Next.js Projects/sweetbatterbakes/public/images/banana_bread.png"
+import {Turnover} from "/Users/zainab/Desktop/Next.js Projects/sweetbatterbakes/public/images/turnovers.png"
+import {Madeline} from "/Users/zainab/Desktop/Next.js Projects/sweetbatterbakes/public/images/madeline.png"
 
 export default function menu(){
     return(

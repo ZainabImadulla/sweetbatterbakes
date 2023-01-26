@@ -1,4 +1,4 @@
-import sbb_gif from "/Users/zainab/Desktop/Next.js Projects/sweetbatterbakes/public/images/SBB.gif"
+import {sbb_gif} from "/Users/zainab/Desktop/Next.js Projects/sweetbatterbakes/public/images/SBB.gif"
 import Image from 'next/image'
 
 export default function about() {
