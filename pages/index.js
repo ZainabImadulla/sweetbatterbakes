@@ -33,7 +33,7 @@ export default function Home() {
             <Image className = 'collage sm:pl-12 h-6/6 w-5/6 object-contain' src = {collage} />
           </div>
 
-          <div className = 'rightSide object-fill h-full w-full flex-auto item-center pl-12 ml-12  sm:ml-0 sm:pl-0 sm:h-3/5 sm:w-2/6 flex-auto '> 
+          <div className = 'rightSide object-fill h-full w-full flex-auto item-center pl-12   sm:ml-0 sm:pl-0 sm:h-3/5 sm:w-2/6 flex-auto '> 
             <Image className = 'w-9/12 object-fill' src = {title} />
           </div>
 
