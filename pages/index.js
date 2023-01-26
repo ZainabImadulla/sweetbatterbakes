@@ -2,7 +2,7 @@ import Head from 'next/head'
 import Image from 'next/image'
 import Navbar from '@/components/Navbar'
 import { Inter } from '@next/font/google'
-import collage from '/Users/zainab/Desktop/Next.js Projects/sweetbatterbakes/public/images/collage.png'
+import {collage} from '/Users/zainab/Desktop/Next.js Projects/sweetbatterbakes/public/images/collage.png'
 import title from '/Users/zainab/Desktop/Next.js Projects/sweetbatterbakes/public/images/title.png'
 import cake from '/Users/zainab/Desktop/Next.js Projects/sweetbatterbakes/public/images/cake.png';
 import donut from '/Users/zainab/Desktop/Next.js Projects/sweetbatterbakes/public/images/donut.png';
