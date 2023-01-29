@@ -28,12 +28,12 @@ export default function Home() {
         <title>Sweet Batter Bakes</title>
       </Head>
    
-      <div className = 'topCollage pt-12 w-full h-full sm:h-1/2 flex flex-col sm:flex-row bg-blush justify-center text-center items-center '>
+      <div className = 'topCollage pt-12 w-full h-full sm:h-1/2 flex flex-col sm:flex-row bg-blush justify-center text-center items-center'>
           <div className = 'leftSide object-contain h-full pl-10 sm:pl-0 sm:h-3/6 w-4/5 sm:w-2/5 flex-auto'>
             <Image className = 'collage sm:pl-12 h-6/6 w-5/6 object-contain' src = {collage} />
           </div>
 
-          <div className = 'rightSide object-fill h-full w-full flex-auto item-center pl-12   sm:ml-0 sm:pl-0 sm:h-3/5 sm:w-2/6 flex-auto '> 
+          <div className = 'rightSide object-fill h-full w-full flex-auto item-center pl-12 sm:pl-0 sm:h-3/5 sm:w-2/6 flex-auto '> 
             <Image className = 'w-9/12 object-fill' src = {title} />
           </div>
 
