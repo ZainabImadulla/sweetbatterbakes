@@ -15,7 +15,7 @@ const Navbar = () => {
         <div className = 'fixed left-0 top-0 w-full z-10 ease-in duration-300 bg-blush font-serif'>
             <div className = 'max-w-{1240px} m-auto flex justify-between items-center p-4 text-gray-700'>
                 <Link href = '/'>
-                    <Image src = "https://res.cloudinary.com/dnldvhhyw/image/upload/v1674994325/banana_bread_d83ruh.png" height = {80} width = {200} />
+                    <Image src = "https://res.cloudinary.com/dnldvhhyw/image/upload/v1674995806/companyLogo_amx6ra.png" height = {80} width = {200} />
                 </Link>
                 <ul className = 'hidden sm:flex'>
                     <li className = 'p-4'>

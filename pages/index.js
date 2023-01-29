@@ -30,11 +30,11 @@ export default function Home() {
    
       <div className = 'topCollage pt-12 w-full h-full sm:h-1/2 flex flex-col sm:flex-row bg-blush justify-center text-center items-center'>
           <div className = 'leftSide object-contain h-full pl-10 sm:pl-0 sm:h-3/6 w-4/5 sm:w-2/5 flex-auto'>
-            <Image className = 'collage sm:pl-12 h-6/6 w-5/6 object-contain' src = {collage} />
+            <Image className = 'collage sm:pl-12 h-6/6 w-5/6 object-contain' src = "https://res.cloudinary.com/dnldvhhyw/image/upload/v1674995835/collage_ymrqwc.png" />
           </div>
 
           <div className = 'rightSide object-fill h-full w-full flex-auto item-center pl-12 sm:pl-0 sm:h-3/5 sm:w-2/6 flex-auto '> 
-            <Image className = 'w-9/12 object-fill' src = {title} />
+            <Image className = 'w-9/12 object-fill' src = "https://res.cloudinary.com/dnldvhhyw/image/upload/v1674995824/title_dhdaao.png" />
           </div>
 
       </div>
@@ -44,7 +44,7 @@ export default function Home() {
         <div className = "why_cards flex flex-col md:flex-row h-full">
             
             <div className ="card items-center h-full" >
-                <Image className ="card-img-top mx-auto  object-cover h-12 w-12" src = {cake} alt="Card image cap"/>
+                <Image className ="card-img-top mx-auto  object-cover h-12 w-12" src = "https://res.cloudinary.com/dnldvhhyw/image/upload/v1674995809/cake_us2uup.png" alt="Card image cap"/>
                 <div className ="card-body">
                     <h5 class="card-title pt-6">Delicious Flavours</h5>
                     <p class="card-text pb-6"> Many different flavours for every sweet treat including mango, apple cider, and cinnamon sugar</p>
@@ -53,7 +53,7 @@ export default function Home() {
 
 
             <div class="card items-center h-full">
-                <Image class="card-img-top mx-auto  object-cover h-12 w-12" src = {donut} alt="Card image cap"/>
+                <Image class="card-img-top mx-auto  object-cover h-12 w-12" src = "https://res.cloudinary.com/dnldvhhyw/image/upload/v1674995805/donut_ciuacw.png" alt="Card image cap"/>
                 <div class="card-body">
                 <h5 class="card-title pt-6">Fresh Ingredients</h5>
                     <p class="card-text pb-6"> Every dessert is artfully crafted with only the freshest ingredients</p>
@@ -61,7 +61,7 @@ export default function Home() {
             </div>
 
             <div class="card items-center h-full" >
-                <Image class="card-img-top mx-auto object-top object-cover h-12 w-12"  src = {ingred} alt="Card image cap"/>
+                <Image class="card-img-top mx-auto object-top object-cover h-12 w-12"  src = "https://res.cloudinary.com/dnldvhhyw/image/upload/v1674995821/ingredients_o6ukxq.png" alt="Card image cap"/>
                 <div class="card-body">
                 <h5 class="card-title pt-6">Perfect For Any Event</h5>
                     <p class="card-text pb-6"> We offer many different desserts including but not limited to donuts, cheescakes, and cupcakes </p>
