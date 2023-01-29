@@ -1,7 +1,7 @@
 import Link from 'next/link'
 import React, {useState} from 'react'
 import Image from 'next/image'
-// import {Logo} from "static/companyLogo.png"
+import {Logo} from "public/images/companyLogo.png"
 import {AiOutlineMenu, AiOutlineClose} from 'react-icons/ai'
 import { Menu } from '@headlessui/react'
 
@@ -15,7 +15,7 @@ const Navbar = () => {
         <div className = 'fixed left-0 top-0 w-full z-10 ease-in duration-300 bg-blush font-serif'>
             <div className = 'max-w-{1240px} m-auto flex justify-between items-center p-4 text-gray-700'>
                 <Link href = '/'>
-                    <Image src = {"/Users/zainab/Desktop/Next.js Projects/sweetbatterbakes/public/images/companyLogo.png"} height = {80} width = {200} />
+                    <Image src = "https://res.cloudinary.com/dnldvhhyw/image/upload/v1674994325/banana_bread_d83ruh.png" height = {80} width = {200} />
                 </Link>
                 <ul className = 'hidden sm:flex'>
                     <li className = 'p-4'>
