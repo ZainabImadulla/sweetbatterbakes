@@ -74,36 +74,36 @@ export default function Home() {
           <Image className = "mx-auto h-1/6 w-1/6" src = "https://res.cloudinary.com/dnldvhhyw/image/upload/v1674995821/instaL_w7xjet.png"/> 
       </div>
 
-      <div className = "Insta-Grid h-3/6 grid grid-cols-3 sm:grid-cols-5 hover:brightness-50 w-6/6">
+      <div className = "Insta-Grid h-3/6 grid grid-cols-3 sm:grid-cols-5  w-6/6">
         <a href = "https://www.instagram.com/p/Ch0GpotAbt9/" target="_blank">
-          <Image className = "w-full h-full object-contain" src = "https://res.cloudinary.com/dnldvhhyw/image/upload/v1674995814/i1_kbqhwi.png" /> 
+          <Image className = "w-full h-full object-contain hover:brightness-50" src = "https://res.cloudinary.com/dnldvhhyw/image/upload/v1674995814/i1_kbqhwi.png" /> 
         </a>
         <a href = "https://www.instagram.com/p/CfKocyKLaQA/" target="_blank">
-          <Image className = "w-full h-full object-contain" src = "https://res.cloudinary.com/dnldvhhyw/image/upload/v1674995813/i2_psc67b.png"/> 
+          <Image className = "w-full h-full object-contain hover:brightness-50" src = "https://res.cloudinary.com/dnldvhhyw/image/upload/v1674995813/i2_psc67b.png"/> 
         </a>
         <a href = "https://www.instagram.com/p/Cd9Y12WLOhW/" target="_blank">
-          <Image className = "w-full h-full object-contain" src = "https://res.cloudinary.com/dnldvhhyw/image/upload/v1674995820/i3_cubbfc.png" /> 
+          <Image className = "w-full h-full object-contain hover:brightness-50" src = "https://res.cloudinary.com/dnldvhhyw/image/upload/v1674995820/i3_cubbfc.png" /> 
         </a>
         <a href = "https://www.instagram.com/p/CWuDRjUrMFY/" target="_blank">
-          <Image className = "w-full h-full object-contain" src = "https://res.cloudinary.com/dnldvhhyw/image/upload/v1674995816/i4_fflyh7.png"/> 
+          <Image className = "w-full h-full object-contain hover:brightness-50" src = "https://res.cloudinary.com/dnldvhhyw/image/upload/v1674995816/i4_fflyh7.png"/> 
         </a>
         <a href = "https://www.instagram.com/p/CZS2l7crOnw/" target="_blank">
-          <Image className = "w-full h-full object-contain" src = "https://res.cloudinary.com/dnldvhhyw/image/upload/v1674995819/i5_fjbbjp.png"/> 
+          <Image className = "w-full h-full object-contain hover:brightness-50" src = "https://res.cloudinary.com/dnldvhhyw/image/upload/v1674995819/i5_fjbbjp.png"/> 
         </a>
         <a href = "https://www.instagram.com/p/CXkNN-kLEk3/" target="_blank">
-          <Image className = "w-full h-full object-contain" src = "https://res.cloudinary.com/dnldvhhyw/image/upload/v1674995820/i6_u8guaq.png"/> 
+          <Image className = "w-full h-full object-contain hover:brightness-50" src = "https://res.cloudinary.com/dnldvhhyw/image/upload/v1674995820/i6_u8guaq.png"/> 
         </a>
         <a href = "https://www.instagram.com/p/CXkNN-kLEk3/" target="_blank">
-          <Image className = "w-full h-full object-contain" src = "https://res.cloudinary.com/dnldvhhyw/image/upload/v1674995824/i7_qxy15g.png"/> 
+          <Image className = "w-full h-full object-contain hover:brightness-50" src = "https://res.cloudinary.com/dnldvhhyw/image/upload/v1674995824/i7_qxy15g.png"/> 
         </a>
         <a href = "https://www.instagram.com/p/CXkNN-kLEk3/" target="_blank">
-          <Image className = "w-full h-full object-contain" src = "https://res.cloudinary.com/dnldvhhyw/image/upload/v1674995823/i8_wtb318.png"/> 
+          <Image className = "w-full h-full object-contain hover:brightness-50" src = "https://res.cloudinary.com/dnldvhhyw/image/upload/v1674995823/i8_wtb318.png"/> 
         </a>
         <a href = "https://www.instagram.com/p/CXkNN-kLEk3/" target="_blank">
-         <Image className = "w-full h-full object-contain" src = "https://res.cloudinary.com/dnldvhhyw/image/upload/v1674995820/i9_beycpl.png"/> 
+         <Image className = "w-full h-full object-contain hover:brightness-50" src = "https://res.cloudinary.com/dnldvhhyw/image/upload/v1674995820/i9_beycpl.png"/> 
         </a>
         <a href = "https://www.instagram.com/p/CXkNN-kLEk3/" target="_blank">
-          <Image className = "w-full h-full object-contain" src = "https://res.cloudinary.com/dnldvhhyw/image/upload/v1674995822/i10_bv3mxo.png"/> 
+          <Image className = "w-full h-full object-contain hover:brightness-50" src = "https://res.cloudinary.com/dnldvhhyw/image/upload/v1674995822/i10_bv3mxo.png"/> 
         </a>
 
 
