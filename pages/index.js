@@ -74,7 +74,7 @@ export default function Home() {
           <Image className = "mx-auto h-1/6 w-1/6" src = "https://res.cloudinary.com/dnldvhhyw/image/upload/v1674995821/instaL_w7xjet.png"/> 
       </div>
 
-      <div className = "Insta-Grid h-3/6 grid grid-cols-3 sm:grid-cols-5  w-6/6">
+      <div className = "Insta-Grid h-3/6 grid grid-cols-3 sm:grid-cols-5 hover:brightness-50 w-6/6">
         <a href = "https://www.instagram.com/p/Ch0GpotAbt9/" target="_blank">
           <Image className = "w-full h-full object-contain" src = "https://res.cloudinary.com/dnldvhhyw/image/upload/v1674995814/i1_kbqhwi.png" /> 
         </a>
