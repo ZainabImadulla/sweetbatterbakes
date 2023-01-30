@@ -49,13 +49,13 @@ const Navbar = () => {
                             <Link onClick = {handleNav} href = '/'> Home </Link>
                         </li>
                         <li className = 'p-4 text-4xl hover:text-gray-500'>
-                            <Link href = '/about'>About Us</Link>
+                            <Link onClick = {handleNav} href = '/about'>About Us</Link>
                         </li>
                         <li className = 'p-4 text-4xl hover:text-gray-500'>
-                            <Link href = '/contact'> Contact Us</Link>
+                            <Link onClick = {handleNav} href = '/contact'> Contact Us</Link>
                         </li>
                         <li className = 'p-4 text-4xl hover:text-gray-500'>
-                            <Link href = '/menu'> Menu</Link>
+                            <Link onClick = {handleNav} href = '/menu'> Menu</Link>
                         </li>
                     </ul>
 
