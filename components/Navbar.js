@@ -46,6 +46,9 @@ const Navbar = () => {
                 >
                     <ul>
                         <li className = 'p-4 text-4xl hover:text-gray-500'>
+                        <div onClick = {handleNav} className = 'block sm:hidden z-10'>
+                            {nav ? <AiOutlineClose size ={20}/> : <AiOutlineMenu size ={20}/>}
+                        </div>
                             <Link href = '/'> Home </Link>
                         </li>
                         <li className = 'p-4 text-4xl hover:text-gray-500'>
