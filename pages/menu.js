@@ -1,6 +1,7 @@
 import Dropdown from 'react-bootstrap/Dropdown';
 import DropdownButton from 'react-bootstrap/DropdownButton';
 import Image from 'next/image'
+import { Menu } from '@headlessui/react'
 import {stuffed} from "public/images/stuffed.png"
 import {Cookie} from "public/images/classic_cookie.png"
 import {Cheese} from "public/images/i2.png"
@@ -16,6 +17,34 @@ import {Madeline} from "public/images/madeline.png"
 export default function menu(){
     return(
         <div className = 'products pt-12 font-serif text-center bg-blush h-full'>
+            <Menu>
+                <Menu.Button>More</Menu.Button>
+                <Menu.Items>
+                    <Menu.Item>
+                    {({ active }) => (
+                        <a
+                        className={`${active && 'bg-blue-500'}`}
+                        href="/account-settings"
+                        >
+                        Account settings
+                        </a>
+                    )}
+                    </Menu.Item>
+                    <Menu.Item>
+                    {({ active }) => (
+                        <a
+                        className={`${active && 'bg-blue-500'}`}
+                        href="/account-settings"
+                        >
+                        Documentation
+                        </a>
+                    )}
+                    </Menu.Item>
+                    <Menu.Item disabled>
+                    <span className="opacity-75">Invite a friend (coming soon!)</span>
+                    </Menu.Item>
+                </Menu.Items>
+            </Menu>
             <h1 className = "head mt-10 text-2xl pb-6 md:text-3xl  ">
                 Flavor Preview
             </h1>  
