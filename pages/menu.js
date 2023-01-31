@@ -27,6 +27,34 @@ export default function menu(){
                         <div class="card-body pt-2">
                             <h5 class="card-title">Stuffed Cookies</h5>
                             <p class="card-text">Dozen/Half Dozen</p>
+                            <Menu>
+                                <Menu.Button>More</Menu.Button>
+                                <Menu.Items>
+                                    <Menu.Item>
+                                    {({ active }) => (
+                                        <a
+                                        className={`${active && 'bg-blue-500'}`}
+                                        href="/account-settings"
+                                        >
+                                        Account settings
+                                        </a>
+                                    )}
+                                    </Menu.Item>
+                                    <Menu.Item>
+                                    {({ active }) => (
+                                        <a
+                                        className={`${active && 'bg-blue-500'}`}
+                                        href="/account-settings"
+                                        >
+                                        Documentation
+                                        </a>
+                                    )}
+                                    </Menu.Item>
+                                    <Menu.Item disabled>
+                                    <span className="opacity-75">Invite a friend (coming soon!)</span>
+                                    </Menu.Item>
+                                </Menu.Items>
+                            </Menu>
                         </div>
                 </div>
 
