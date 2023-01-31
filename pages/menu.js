@@ -1,8 +1,7 @@
 import Dropdown from 'react-bootstrap/Dropdown';
 import DropdownButton from 'react-bootstrap/DropdownButton';
 import Image from 'next/image'
-import { Disclosure } from '@headlessui/react'
-import { ChevronUpIcon } from '@heroicons/react/20/solid'
+import { Menu } from '@headlessui/react'
 import {stuffed} from "public/images/stuffed.png"
 import {Cookie} from "public/images/classic_cookie.png"
 import {Cheese} from "public/images/i2.png"
@@ -30,7 +29,6 @@ export default function menu(){
                             <h5 class="card-title">Stuffed Cookies</h5>
                             <p class="card-text">Dozen/Half Dozen</p>
                         </div>
-                       
                 </div>
 
                 <div class="p_cards m-3">
