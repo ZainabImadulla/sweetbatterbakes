@@ -13,6 +13,7 @@ import {Cake} from "public/images/i10.png"
 import {Banana} from "public/images/banana_bread.png"
 import {Turnover} from "public/images/turnovers.png"
 import {Madeline} from "public/images/madeline.png"
+import { Dropdown } from "@nextui-org/react";
 
 export default function menu(){
     return(
@@ -28,6 +29,18 @@ export default function menu(){
                         <div class="card-body pt-2">
                             <h5 class="card-title">Stuffed Cookies</h5>
                             <p class="card-text">Dozen/Half Dozen</p>
+                            <Dropdown>
+                                <Dropdown.Button flat>Trigger</Dropdown.Button>
+                                <Dropdown.Menu aria-label="Static Actions">
+                                    <Dropdown.Item key="new">New file</Dropdown.Item>
+                                    <Dropdown.Item key="copy">Copy link</Dropdown.Item>
+                                    <Dropdown.Item key="edit">Edit file</Dropdown.Item>
+                                    <Dropdown.Item key="delete" color="error">
+                                    Delete file
+                                    </Dropdown.Item>
+                                </Dropdown.Menu>
+                            </Dropdown>
+        
                         </div>
                 </div>
 
