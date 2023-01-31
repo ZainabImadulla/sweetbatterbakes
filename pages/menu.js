@@ -18,6 +18,7 @@ import { Dropdown } from "@nextui-org/react";
 export default function menu(){
     return(
         <div className = 'products pt-12 font-serif text-center bg-blush h-full'>
+
             <h1 className = "head mt-10 text-2xl pb-6 md:text-3xl  ">
                 Flavor Preview
             </h1>  
@@ -29,18 +30,20 @@ export default function menu(){
                         <div class="card-body pt-2">
                             <h5 class="card-title">Stuffed Cookies</h5>
                             <p class="card-text">Dozen/Half Dozen</p>
-                            <Dropdown>
-                                <Dropdown.Button flat>Trigger</Dropdown.Button>
-                                <Dropdown.Menu aria-label="Static Actions">
-                                    <Dropdown.Item key="new">New file</Dropdown.Item>
-                                    <Dropdown.Item key="copy">Copy link</Dropdown.Item>
-                                    <Dropdown.Item key="edit">Edit file</Dropdown.Item>
-                                    <Dropdown.Item key="delete" color="error">
-                                    Delete file
-                                    </Dropdown.Item>
-                                </Dropdown.Menu>
-                            </Dropdown>
-        
+                            <div>
+                                <Dropdown>
+                                    <Dropdown.Button flat>Trigger</Dropdown.Button>
+                                    <Dropdown.Menu aria-label="Static Actions">
+                                        <Dropdown.Item key="new">New file</Dropdown.Item>
+                                        <Dropdown.Item key="copy">Copy link</Dropdown.Item>
+                                        <Dropdown.Item key="edit">Edit file</Dropdown.Item>
+                                        <Dropdown.Item key="delete" color="error">
+                                        Delete file
+                                        </Dropdown.Item>
+                                    </Dropdown.Menu>
+                                </Dropdown>
+                            </div>
+
                         </div>
                 </div>
 
