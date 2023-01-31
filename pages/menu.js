@@ -1,7 +1,8 @@
 import Dropdown from 'react-bootstrap/Dropdown';
 import DropdownButton from 'react-bootstrap/DropdownButton';
 import Image from 'next/image'
-import { Menu } from '@headlessui/react'
+import { Disclosure } from '@headlessui/react'
+import { ChevronUpIcon } from '@heroicons/react/20/solid'
 import {stuffed} from "public/images/stuffed.png"
 import {Cookie} from "public/images/classic_cookie.png"
 import {Cheese} from "public/images/i2.png"
@@ -17,34 +18,6 @@ import {Madeline} from "public/images/madeline.png"
 export default function menu(){
     return(
         <div className = 'products pt-12 font-serif text-center bg-blush h-full'>
-            <Menu>
-                <Menu.Button>More</Menu.Button>
-                <Menu.Items>
-                    <Menu.Item>
-                    {({ active }) => (
-                        <a
-                        className={`${active && 'bg-blue-500'}`}
-                        href="/account-settings"
-                        >
-                        Account settings
-                        </a>
-                    )}
-                    </Menu.Item>
-                    <Menu.Item>
-                    {({ active }) => (
-                        <a
-                        className={`${active && 'bg-blue-500'}`}
-                        href="/account-settings"
-                        >
-                        Documentation
-                        </a>
-                    )}
-                    </Menu.Item>
-                    <Menu.Item disabled>
-                    <span className="opacity-75">Invite a friend (coming soon!)</span>
-                    </Menu.Item>
-                </Menu.Items>
-            </Menu>
             <h1 className = "head mt-10 text-2xl pb-6 md:text-3xl  ">
                 Flavor Preview
             </h1>  
@@ -57,6 +30,24 @@ export default function menu(){
                             <h5 class="card-title">Stuffed Cookies</h5>
                             <p class="card-text">Dozen/Half Dozen</p>
                         </div>
+                        <Disclosure>
+                            {({ open }) => (
+                                <>
+                                <Disclosure.Button className="flex w-full justify-between rounded-lg bg-purple-100 px-4 py-2 text-left text-sm font-medium text-purple-900 hover:bg-purple-200 focus:outline-none focus-visible:ring focus-visible:ring-purple-500 focus-visible:ring-opacity-75">
+                                    <span>What is your refund policy?</span>
+                                    <ChevronUpIcon
+                                    className={`${
+                                        open ? 'rotate-180 transform' : ''
+                                    } h-5 w-5 text-purple-500`}
+                                    />
+                                </Disclosure.Button>
+                                <Disclosure.Panel className="px-4 pt-4 pb-2 text-sm text-gray-500">
+                                    If you're unhappy with your purchase for any reason, email us
+                                    within 90 days and we'll refund you in full, no questions asked.
+                                </Disclosure.Panel>
+                                </>
+                            )}
+                        </Disclosure>
                 </div>
 
                 <div class="p_cards m-3">
