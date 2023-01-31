@@ -1,4 +1,4 @@
-import {sbb_gif} from "public/images/SBB.gif"
+
 import Image from 'next/image'
 
 export default function about() {

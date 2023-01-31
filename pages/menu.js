@@ -1,17 +1,7 @@
 import Dropdown from 'react-bootstrap/Dropdown';
 import DropdownButton from 'react-bootstrap/DropdownButton';
 import Image from 'next/image'
-import {stuffed} from "public/images/stuffed.png"
-import {Cookie} from "public/images/classic_cookie.png"
-import {Cheese} from "public/images/i2.png"
-import {Cupcake} from "public/images/cupcake.png"
-import {Roll} from "public/images/rollcake.png"
-import {Brownie} from "public/images/brownies.png"
-import {Donut} from "public/images/donut2.png"
-import {Cake} from "public/images/i10.png"
-import {Banana} from "public/images/banana_bread.png"
-import {Turnover} from "public/images/turnovers.png"
-import {Madeline} from "public/images/madeline.png"
+import { Menu } from '@headlessui/react'
 
 export default function menu(){
     return(
