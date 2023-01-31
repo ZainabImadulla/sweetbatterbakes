@@ -1,7 +1,17 @@
 import Dropdown from 'react-bootstrap/Dropdown';
 import DropdownButton from 'react-bootstrap/DropdownButton';
 import Image from 'next/image'
-
+import {stuffed} from "public/images/stuffed.png"
+import {Cookie} from "public/images/classic_cookie.png"
+import {Cheese} from "public/images/i2.png"
+import {Cupcake} from "public/images/cupcake.png"
+import {Roll} from "public/images/rollcake.png"
+import {Brownie} from "public/images/brownies.png"
+import {Donut} from "public/images/donut2.png"
+import {Cake} from "public/images/i10.png"
+import {Banana} from "public/images/banana_bread.png"
+import {Turnover} from "public/images/turnovers.png"
+import {Madeline} from "public/images/madeline.png"
 
 export default function menu(){
     return(
@@ -17,7 +27,6 @@ export default function menu(){
                         <div class="card-body pt-2">
                             <h5 class="card-title">Stuffed Cookies</h5>
                             <p class="card-text">Dozen/Half Dozen</p>
-                
                         </div>
                 </div>
 

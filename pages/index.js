@@ -2,7 +2,22 @@ import Head from 'next/head'
 import Image from 'next/image'
 import Navbar from '@/components/Navbar'
 import { Inter } from '@next/font/google'
-
+import {collage} from 'public/images/collage.png'
+import {title} from 'public/images/title.png'
+import {cake} from 'public/images/cake.png';
+import {donut} from 'public/images/donut.png';
+import {ingred} from 'public/images/ingredients.png'
+import {insta} from "public/images/instaL.png"
+import {i1} from "public/images/i1.png";
+import {i2} from "public/images/i2.png";
+import {i3} from "public/images/i3.png";
+import {i4} from "public/images/i4.png";
+import {i5} from "public/images/i5.png";
+import {i6} from "public/images/i6.png";
+import {i7} from "public/images/i7.png";
+import {i8} from "public/images/i8.png";
+import {i9} from "public/images/i9.png";
+import {i10} from "public/images/i10.png";
 
 const inter = Inter({ subsets: ['latin'] })
 
