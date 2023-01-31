@@ -30,11 +30,7 @@ export default function menu(){
                         <div class="card-body pt-2">
                             <h5 class="card-title">Stuffed Cookies</h5>
                             <p class="card-text">Dozen/Half Dozen</p>
-                            <DropdownButton className = "dropdown-button" id="dropdown-basic-button" title="Flavors">
-                                <Dropdown.Item as="button">Brownie Batter Stuffed</Dropdown.Item>
-                                <Dropdown.Item as="button">Red Velvet</Dropdown.Item>
-                                <Dropdown.Item as="button">Hazelnut Churro</Dropdown.Item>
-                            </DropdownButton>
+                            
                         </div>
                 </div>
 
