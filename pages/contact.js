@@ -22,6 +22,8 @@ export default function contact(){
           alert(error.text);
         }
       );
+    
+    e.target.reset();
   };
     return(
         <Container className = "contactUs mt-12 pt-12 pl-12 h-screen flex flex-col sm:flex-row sm:items-begin font-serif bg-cream">
