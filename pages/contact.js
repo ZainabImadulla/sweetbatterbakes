@@ -4,17 +4,17 @@ import emailjs from '@emailjs/browser';
 export default function contact(){
     const form = useRef();
 
-    function sendEmail(e){
+    const sendEmail = (e) => {
         e.preventDefault();
     
         emailjs.sendForm('gmail', 'template_urkpyze', form.current, 'lZSHyMqWkQSUR96Fj')
           .then((result) => {
-              console.log(result.text);
+            alert(result.text);
           }, (error) => {
-              console.log(error.text);
+            alert(error.text);
           });
 
-        e.target.reset();
+       
         
     };
     return(
@@ -45,7 +45,7 @@ export default function contact(){
                 <Row className =" pt-10 mt-10 w-full sm:items-center">
                     
                     <Col lg = "7" className = " align-items-center w-full ">
-                        <form ref = {form} className = "contact__form w=100"  onSubmit={sendEmail}>
+                        <form ref = {form} onSubmit={sendEmail}>
                             <Row>
                                 <Col lg = '6' className = "form-group w-full">
                                     <input
@@ -65,7 +65,7 @@ export default function contact(){
                                         id = "email"
                                         name = "email"
                                         placeholder = "Email"
-                                        type = "enail"
+                                        type = "email"
                                     />
                                 </Col>
                             
@@ -80,7 +80,7 @@ export default function contact(){
                             <br />
                             <Row>
                                 <Col lg = '12' className = "form-group"> 
-                                    <button className = "btn1 ac_btn w-5/6 sm:w-3/4 sm:ml-12" type = "submit"> Send</button>
+                                    <button className = "btn1 ac_btn w-5/6 sm:w-3/4 sm:ml-12" type = "submit" value = "Send"> Send</button>
                                 
                                 </Col>
                             </Row>
