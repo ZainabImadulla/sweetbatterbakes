@@ -1,22 +1,6 @@
 import {Container, Row, Col} from 'react-bootstrap';
-import emailjs from '@emailjs/browser';
 
 export default function contact(){
-    const form = useRef();
-
-    const sendEmail = (e) => {
-        e.preventDefault();
-    
-        emailjs.sendForm('gmail', 'template_urkpyze', form.current, 'lZSHyMqWkQSUR96Fj')
-          .then((result) => {
-            alert(result.text);
-          }, (error) => {
-            alert(error.text);
-          });
-
-       
-        
-    };
     return(
         <Container className = "contactUs mt-12 pt-12 pl-12 h-screen flex flex-col sm:flex-row sm:items-begin font-serif bg-cream">
                 <Row className = "mb-5 mt-3 sm:ml-12 sm:pl-12 mr-12 ">
@@ -45,7 +29,7 @@ export default function contact(){
                 <Row className =" pt-10 mt-10 w-full sm:items-center">
                     
                     <Col lg = "7" className = " align-items-center w-full ">
-                        <form ref = {form} onSubmit={sendEmail}>
+                        {/* <form ref = {form} className = "contact__form w=100"  onSubmit={sendEmail}> */}
                             <Row>
                                 <Col lg = '6' className = "form-group w-full">
                                     <input
@@ -65,7 +49,7 @@ export default function contact(){
                                         id = "email"
                                         name = "email"
                                         placeholder = "Email"
-                                        type = "email"
+                                        type = "enail"
                                     />
                                 </Col>
                             
@@ -80,11 +64,11 @@ export default function contact(){
                             <br />
                             <Row>
                                 <Col lg = '12' className = "form-group"> 
-                                    <button className = "btn1 ac_btn w-5/6 sm:w-3/4 sm:ml-12" type = "submit" value = "Send"> Send</button>
+                                    <button className = "btn1 ac_btn w-5/6 sm:w-3/4 sm:ml-12" type = "submit"> Send</button>
                                 
                                 </Col>
                             </Row>
-                        </form>
+                        {/* </form> */}
                     </Col>
                 </Row>
             
