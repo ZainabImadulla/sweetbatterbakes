@@ -1,6 +1,28 @@
 import {Container, Row, Col} from 'react-bootstrap';
+import React, { useRef } from "react";
+import emailjs from "@emailjs/browser";
 
 export default function contact(){
+    const form = useRef();
+    const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs
+     .sendForm(
+       "service_xfg63e7",
+       "template_urkpyze",
+       form.current,
+        "lZSHyMqWkQSUR96Fj"
+     )
+     .then(
+       (result) => {
+         alert(result.text);
+       },
+        (error) => {
+          alert(error.text);
+        }
+      );
+  };
     return(
         <Container className = "contactUs mt-12 pt-12 pl-12 h-screen flex flex-col sm:flex-row sm:items-begin font-serif bg-cream">
                 <Row className = "mb-5 mt-3 sm:ml-12 sm:pl-12 mr-12 ">
@@ -29,7 +51,7 @@ export default function contact(){
                 <Row className =" pt-10 mt-10 w-full sm:items-center">
                     
                     <Col lg = "7" className = " align-items-center w-full ">
-                        {/* <form ref = {form} className = "contact__form w=100"  onSubmit={sendEmail}> */}
+                        <form ref={form} onSubmit={sendEmail}>
                             <Row>
                                 <Col lg = '6' className = "form-group w-full">
                                     <input
@@ -49,7 +71,7 @@ export default function contact(){
                                         id = "email"
                                         name = "email"
                                         placeholder = "Email"
-                                        type = "enail"
+                                        type = "email"
                                     />
                                 </Col>
                             
@@ -68,7 +90,7 @@ export default function contact(){
                                 
                                 </Col>
                             </Row>
-                        {/* </form> */}
+                        </form>
                     </Col>
                 </Row>
             
