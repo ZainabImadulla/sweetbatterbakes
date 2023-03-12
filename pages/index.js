@@ -30,7 +30,7 @@ export default function Home() {
    
       <div className = 'topCollage pt-12 w-full h-full sm:h-1/2 flex flex-col sm:flex-row bg-blush justify-center text-center items-center'>
           <div className = 'leftSide object-contain h-full pl-10 sm:pl-0 sm:h-3/6 w-4/5 sm:w-2/5 flex-auto'>
-            <Image className = 'collage sm:pl-12 h-6/6 w-5/6 object-contain' src = "https://res.cloudinary.com/dnldvhhyw/image/upload/v1674995835/collage_ymrqwc.png" />
+            <Image className = 'collage sm:pl-12 h-6/6 w-5/6 object-contain' src = "https://res.cloudinary.com/dnldvhhyw/image/upload/v1678653235/homeCollage2_j1u0pj.png" />
           </div>
 
           <div className = 'rightSide object-fill h-full w-full flex-auto item-center pl-12 sm:pl-0 sm:h-3/5 sm:w-2/6 flex-auto '> 
