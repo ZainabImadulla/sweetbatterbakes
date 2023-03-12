@@ -30,8 +30,8 @@ export default function menu(){
                             <h5 class="card-title">Stuffed Cookies</h5>
                             <p class="card-text">Dozen/Half Dozen</p>
                         </div>
-                        <div class="card-body border-2">
-                            <h2 class="card-title">Flavours</h2>
+                        <div class="card-body border-2 border-black">
+                            <h3 class="card-title">Flavours</h3>
                             <p class="card-text">Brownie Batter, Red Velvet, Hazelnut Churro</p>
 
                         </div>
