@@ -37,17 +37,7 @@ export default function menu(){
                         </div>
                 </div>
 
-                <div class="p_cards m-3">
-                    <Image class="p_img" src= "https://res.cloudinary.com/dnldvhhyw/image/upload/v1674995822/classic_cookie_sfjpff.png" alt="Card image cap"/>
-                    <div class="card-body pt-2">
-                        <h5 class="card-title">O.G. Cookies</h5>
-                    </div>
-                    <div class="card-body border-y-2 border-black">
-                            <h3 class="card-title">Flavours</h3>
-                            <p class="card-text">Choc Chip Walnut, Double Choc Chip, Peanut Butter CC, White Choc RaspBerry, Snickerdoodle, Pumpkin White Choc, Custom Sugar Cookies</p>
-
-                    </div>
-                </div>
+                
 
                 <div class="p_cards m-3">
                     <Image class="p_img" src= "https://res.cloudinary.com/dnldvhhyw/image/upload/v1674995813/i2_psc67b.png" alt="Card image cap"/>
@@ -76,13 +66,28 @@ export default function menu(){
                     </div>
                 </div>
 
+                <div class="p_cards m-3">
+                    <Image class="p_img" src= "https://res.cloudinary.com/dnldvhhyw/image/upload/v1674995813/donut2_pzbmlx.png" alt="Card image cap"/>
+                    <div class="card-body pt-2">
+                        <h5 class="card-title">Baked donuts</h5>
+                        <p class="card-text">12 mini donuts</p>
+                    
+                    </div>
+                    <div class="card-body border-y-2 border-black">
+                            <h3 class="card-title">Flavours</h3>
+                            <p class="card-text">Glazed, Cinnamon Sugar, Pumpkin, Apple Cider</p>
+
+                    </div>
+                </div>
 
                 <div class="p_cards m-3">
-                    <Image class="p_img" src= "https://res.cloudinary.com/dnldvhhyw/image/upload/v1674995830/rollcake_wjrpvu.png" alt="Card image cap"/>
+                    <Image class="p_img" src= "https://res.cloudinary.com/dnldvhhyw/image/upload/v1674995822/classic_cookie_sfjpff.png" alt="Card image cap"/>
                     <div class="card-body pt-2">
-                        <h5 class="card-title">Swiss Roll Cake</h5>
-                        <p class="card-text">1 large roll sliced</p>
-                       
+                        <h5 class="card-title">O.G. Cookies</h5>
+                    </div>
+                    <div class="card-body border-y-2 border-black">
+                            <h3 class="card-title">Flavours</h3>
+                            <p class="card-text">Choc Chip Walnut, Double Choc Chip, Peanut Butter CC, White Choc RaspBerry, Snickerdoodle, Pumpkin White Choc, Custom Sugar Cookies</p>
 
                     </div>
                 </div>
@@ -97,20 +102,6 @@ export default function menu(){
                     <div class="card-body border-y-2 border-black">
                             <h3 class="card-title">Flavours</h3>
                             <p class="card-text">Cheescake, Twix, Cookie</p>
-
-                    </div>
-                </div>
-
-                <div class="p_cards m-3">
-                    <Image class="p_img" src= "https://res.cloudinary.com/dnldvhhyw/image/upload/v1674995813/donut2_pzbmlx.png" alt="Card image cap"/>
-                    <div class="card-body pt-2">
-                        <h5 class="card-title">Baked donuts</h5>
-                        <p class="card-text">12 mini donuts</p>
-                    
-                    </div>
-                    <div class="card-body border-y-2 border-black">
-                            <h3 class="card-title">Flavours</h3>
-                            <p class="card-text">Glazed, Cinnamon Sugar, Pumpkin, Apple Cider</p>
 
                     </div>
                 </div>
@@ -151,6 +142,16 @@ export default function menu(){
                     <div class="card-body pt-2">
                         <h5 class="card-title">Madelines</h5>
                         <p class="card-text">16 Madelines</p>
+                    </div>
+                </div>
+
+                <div class="p_cards m-3">
+                    <Image class="p_img" src= "https://res.cloudinary.com/dnldvhhyw/image/upload/v1674995830/rollcake_wjrpvu.png" alt="Card image cap"/>
+                    <div class="card-body pt-2">
+                        <h5 class="card-title">Swiss Roll Cake</h5>
+                        <p class="card-text">1 large roll sliced</p>
+                       
+
                     </div>
                 </div>
 
