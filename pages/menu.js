@@ -81,18 +81,6 @@ export default function menu(){
                 </div>
 
                 <div class="p_cards m-3">
-                    <Image class="p_img" src= "https://res.cloudinary.com/dnldvhhyw/image/upload/v1674995822/classic_cookie_sfjpff.png" alt="Card image cap"/>
-                    <div class="card-body pt-2">
-                        <h5 class="card-title">O.G. Cookies</h5>
-                    </div>
-                    <div class="card-body border-y-2 border-black">
-                            <h3 class="card-title">Flavours</h3>
-                            <p class="card-text">Choc Chip Walnut, Double Choc Chip, Peanut Butter CC, White Choc RaspBerry, Snickerdoodle, Pumpkin White Choc, Custom Sugar Cookies</p>
-
-                    </div>
-                </div>
-
-                <div class="p_cards m-3">
                     <Image class="p_img" src= "https://res.cloudinary.com/dnldvhhyw/image/upload/v1674995815/brownies_bbekrq.png"alt="Card image cap"/>
                     <div class="card-body pt-2">
                         <h5 class="card-title">Layered Brownies</h5>
@@ -105,6 +93,20 @@ export default function menu(){
 
                     </div>
                 </div>
+
+                <div class="p_cards m-3">
+                    <Image class="p_img" src= "https://res.cloudinary.com/dnldvhhyw/image/upload/v1674995822/classic_cookie_sfjpff.png" alt="Card image cap"/>
+                    <div class="card-body pt-2">
+                        <h5 class="card-title">O.G. Cookies</h5>
+                    </div>
+                    <div class="card-body border-y-2 border-black">
+                            <h3 class="card-title">Flavours</h3>
+                            <p class="card-text">Choc Chip Walnut, Double Choc Chip, Peanut Butter CC, White Choc RaspBerry, Snickerdoodle, Pumpkin White Choc, Custom Sugar Cookies</p>
+
+                    </div>
+                </div>
+
+                
 
                 <div class="p_cards m-3">
                     <Image class="p_img" src= 'https://res.cloudinary.com/dnldvhhyw/image/upload/v1674995822/i10_bv3mxo.png' alt="Card image cap"/>
