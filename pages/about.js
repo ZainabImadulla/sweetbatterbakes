@@ -6,7 +6,7 @@ export default function about() {
     return(
         <>
         <div className = "mt-12 pt-12 flex h-full  flex-col sm:flex-row justify-center items-center sm:items-start bg-cream ">
-            <div className = "vid_arch w-2/6 sm:w-2/6 sm:h-2/6 sm:mx-12 my-12">
+            <div className = "vid_arch w-2/6 sm:w-2/6 sm:h-3/6 sm:mx-12 my-12">
                 <Image className = "rounded-t-full" src = "https://res.cloudinary.com/dnldvhhyw/image/upload/v1678653520/homeCollage_nogytt.png"/>
              </div>
             <div className = "our_story w-4/6 sm:mt-12 sm:mr-12 text-center font-serif sm:ml-12">

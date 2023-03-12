@@ -30,7 +30,7 @@ export default function menu(){
                             <h5 class="card-title">Stuffed Cookies</h5>
                             <p class="card-text">Dozen/Half Dozen</p>
                         </div>
-                        <div class="card-body border-2 border-black">
+                        <div class="card-body border-y-2 border-black">
                             <h3 class="card-title">Flavours</h3>
                             <p class="card-text">Brownie Batter, Red Velvet, Hazelnut Churro</p>
 
@@ -41,7 +41,10 @@ export default function menu(){
                     <Image class="p_img" src= "https://res.cloudinary.com/dnldvhhyw/image/upload/v1674995822/classic_cookie_sfjpff.png" alt="Card image cap"/>
                     <div class="card-body pt-2">
                         <h5 class="card-title">O.G. Cookies</h5>
-                        
+                    </div>
+                    <div class="card-body border-y-2 border-black">
+                            <h3 class="card-title">Flavours</h3>
+                            <p class="card-text">Choc Chip Walnut, Double Choc Chip, Peanut Butter CC, White Choc RaspBerry, Snickerdoodle, Pumpkin White Choc, Custom Sugar Cookies</p>
 
                     </div>
                 </div>
@@ -52,8 +55,12 @@ export default function menu(){
                         <h5 class="card-title">Cheesecakes</h5>
                         <p class="card-text">1 Large/12 Mini</p>
                        
-
                     </div>
+                    <div class="card-body border-y-2 border-black">
+                            <h3 class="card-title">Flavours</h3>
+                            <p class="card-text">New York Style, Mango, Biscoff, Banana Cream, Pumpkin</p>
+
+                        </div>
                 </div>
 
                 <div class="p_cards m-3">
@@ -61,7 +68,10 @@ export default function menu(){
                     <div class="card-body pt-2">
                         <h5 class="card-title">Cupcakes</h5>
                         <p class="card-text">Dozen/Half Dozen</p>
-                       
+                    </div>
+                    <div class="card-body border-y-2 border-black">
+                            <h3 class="card-title">Flavours</h3>
+                            <p class="card-text">Vanilla, Chocolate, Red Velvet, Carrot, Strawberry, Cookies N Cream, Pumpkin Spice, Custom</p>
 
                     </div>
                 </div>
@@ -83,6 +93,10 @@ export default function menu(){
                         <h5 class="card-title">Layered Brownies</h5>
                         <p class="card-text">12 piece</p>
                        
+                    </div>
+                    <div class="card-body border-y-2 border-black">
+                            <h3 class="card-title">Flavours</h3>
+                            <p class="card-text">Cheescake, Twix, Cookie</p>
 
                     </div>
                 </div>
@@ -92,7 +106,11 @@ export default function menu(){
                     <div class="card-body pt-2">
                         <h5 class="card-title">Baked donuts</h5>
                         <p class="card-text">12 mini donuts</p>
-                       
+                    
+                    </div>
+                    <div class="card-body border-y-2 border-black">
+                            <h3 class="card-title">Flavours</h3>
+                            <p class="card-text">Glazed, Cinnamon Sugar, Pumpkin, Apple Cider</p>
 
                     </div>
                 </div>
@@ -102,6 +120,12 @@ export default function menu(){
                     <div class="card-body pt-2">
                         <h5 class="card-title">Cakes</h5>
                         
+
+                    </div>
+
+                    <div class="card-body border-y-2 border-black">
+                            <h3 class="card-title">Flavours</h3>
+                            <p class="card-text">Wedding/Birthday, Smash Heart, Tres Leches, Custom</p>
 
                     </div>
                 </div>
