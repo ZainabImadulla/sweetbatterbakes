@@ -1,3 +1,13 @@
+# SweetBatterBakes
+
+My first website created for a local small business. It was created using Next.js and styled with TailwindCSS. 
+
+## Demo
+
+I deployed this website for free using Netfify.
+https://sweetbatterbakes.netlify.app
+
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
